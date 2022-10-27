@@ -1,0 +1,172 @@
+header {
+    background-color: #222222;
+    color: aliceblue;
+    text-align: center;
+
+    box-sizing: border-box;
+
+    height: 50px;
+    margin: 0px;
+    padding-top: 10px;
+    border-radius: 50px;
+    text-decoration: underline;
+}
+h1 {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: lightslategrey;
+    width: 100%;
+    height: 50px;
+
+    box-sizing: border-box;
+    padding: 10px;
+
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+
+main {
+    box-sizing: border-box;
+    min-height: 600px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+    text-align: center;
+    background-color: aquamarine;
+    opacity: 75%;
+    border-radius: 10px;
+}
+
+main h2 {
+    font-family: Papyrus, fantasy, sans-serif;
+    color: black;
+    text-shadow: 3px 3px 1px red;
+    text-decoration: underline;
+    opacity: 100%;
+}
+
+body {
+    background-image: url("milkyway.jpg");
+}
+
+main form input[type="text"]{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px;
+    margin: 5px;
+
+    text-align: center;
+    border: none;
+    border: solid 1px greenyellow;
+    border-bottom:solid 2px greenyellow;
+    border-radius: 10px;
+    opacity: 100%;
+    width: 100%;
+    max-width: 150px;
+}
+
+main form input[type="password"]{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px;
+    margin: 5px;
+
+    text-align: center;
+    border: none;
+    border: solid 1px greenyellow;
+    border-bottom:solid 2px greenyellow;
+    border-radius: 10px;
+    opacity: 100%;
+    width: 100%;
+    max-width: 150px;
+}
+
+main form input[type="number"]{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px;
+    margin: 5px;
+
+    text-align: center;
+    border: none;
+    border: solid 1px greenyellow;
+    border-bottom:solid 2px greenyellow;
+    border-radius: 10px;
+    opacity: 100%;
+    width: 100%;
+    max-width: 150px;
+}
+
+main form input[type="text"]::placeholder {
+    color: blueviolet;
+    font-style: italic;
+    text-decoration: underline 1px;
+}
+
+main form input[type="number"]::placeholder {
+    color: blueviolet;
+    font-style: italic;
+    text-decoration: underline 1px;
+}
+
+main form input[type="password"]::placeholder {
+    color: blueviolet;
+    font-style: italic;
+    text-decoration: underline 1px;
+}
+
+main form input[type="text"]:placeholder-shown {
+    border:solid 1px red;
+    border-bottom: solid 2px red;
+}
+
+main form input[type="number"]:placeholder-shown {
+    border:solid 1px red;
+    border-bottom: solid 2px red;
+}
+
+main form input[type="password"]:placeholder-shown {
+    border:solid 1px red;
+    border-bottom: solid 2px red;
+}
+
+main form input[type="submit"]{
+    margin: 10px;
+    padding: 5px;
+    font-weight: 800;
+    color: darkred;
+    border: solid 2px darkred;
+    border-radius: 5px;
+    opacity: 100%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+}
+
+img {
+    box-align: center;
+    border-radius: 15px;
+    margin-top: 35px;
+    width: 60%;
+    max-width: 500px;
+}
+
+main form input[type="submit"]:hover{
+    color: white;
+    background-color: black;
+    box-shadow: 5px 5px 5px black;
+    border: none;
+    transform: scale(120%);
+}
+
+main form input[type="submit"]:active{
+    transform: scale(110%);
+    box-shadow: 4px 4px 4px black;
+}
+
+p{
+    font-size: 8px;
+}
+
+
